@@ -6,7 +6,12 @@
         "ghcr.io/devcontainers/features/terraform:1": {},
         "ghcr.io/devcontainers/features/node:1": {},
         "ghcr.io/joedmck/devcontainer-features/cdktf:1": {},
-        "ghcr.io/devcontainers/features/azure-cli:1": {}
+        "ghcr.io/devcontainers/features/azure-cli:1": {},
+        "ghcr.io/devcontainers-contrib/features/apt-packages:1": {
+            // bash-completion: To get tab-completion for some commands
+            // xdg-utils: So a program can use xdg-open to open the browser
+            "packages": "bash-completion,xdg-utils"
+        }
     },
     "customizations": {
         "vscode": {
