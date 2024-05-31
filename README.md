@@ -12,5 +12,6 @@
 ### wip
 
 ```
+rye run dev
 rye fmt
 ```

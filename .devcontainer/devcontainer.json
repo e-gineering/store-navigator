@@ -10,7 +10,12 @@
                 "github.vscode-github-actions",
                 "yzhang.markdown-all-in-one",
                 "charliermarsh.ruff"
-            ]
+            ],
+            "settings": {
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff"
+                }
+            }
         }
     }
 }
