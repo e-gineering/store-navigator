@@ -1,0 +1,10 @@
+{
+  "language": "python",
+  "app": "rye run infra",
+  "projectId": "69c2da12-73cb-405a-af6a-98b583c50c93",
+  "sendCrashReports": "false",
+  "terraformProviders": [],
+  "terraformModules": [],
+  "codeMakerOutput": "imports",
+  "context": {}
+}
